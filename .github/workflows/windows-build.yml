@@ -19,7 +19,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pyinstaller
+        pip install pyinstaller pillow
+
 
     - name: Build EXE
       run: |
