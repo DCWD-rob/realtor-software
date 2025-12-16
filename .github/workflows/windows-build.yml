@@ -20,7 +20,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed real_estate_app.py
+        pyinstaller --onefile --windowed mainpage.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
